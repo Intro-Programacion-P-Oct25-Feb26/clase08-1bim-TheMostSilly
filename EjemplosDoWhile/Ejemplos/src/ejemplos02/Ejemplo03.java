@@ -42,7 +42,7 @@ public class Ejemplo03 {
         } while (bandera); // (bandera==true)
         
         cadenaFina = String.format("%s\n", cadenaFina);
-        cadenaFina = String.format("%s\nLa suma es%.2f", cadenaFina, sumaNotas);
+        cadenaFina = String.format("%s\nLa suma es %.2f", cadenaFina, sumaNotas);
         System.out.printf("Listado de Notas\n%s\n", cadenaFina);
     }
 }
